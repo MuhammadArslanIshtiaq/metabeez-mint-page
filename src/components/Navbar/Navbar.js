@@ -104,10 +104,9 @@ const Navbar = () => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavContainer>
-        <NavLink to="">
-                <NavLogo alt={"logo"} src={"config/images/logo.png"} ></NavLogo>
-            </NavLink>
-          
+          <NavLink to="">
+            <NavLogo alt={"logo"} src={"config/images/logo.png"}></NavLogo>
+          </NavLink>
 
           {/* <MobileIcon onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}

@@ -1,24 +1,24 @@
 :root {
-  --primary: #b891fe !important;
+  --primary: #f3ba40 !important;
   --primary-text: #1a1a1a;
   --secondary: #5FCDE4;
   --secondary-text: #ffffff;
-  --accent: #505050;
-  --accent-text: #ffffff;
+  --accent: #ffffff;
+  --accent-text: #f3ba40;
 }
-/* 
+
 body{
   background-color: #000000;
-  background-image: url('./images/bg.png') !important; ;
+  background-image: url('../config/images/bg.jpeg') !important; ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center ;
-} */
+} 
 
 
 @media screen and (max-width: 480px) {
   body {
-  background-image: url('./images/bg.png') !important; ;
+  background-image: url('./images/bg.jpeg') !important; ;
   background-repeat: no-repeat;
   background-size: 100% 112%;
   background-position: center ;
